@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Latitude - Weather Research</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="index.html"><h1>Latitude</h1></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="maxtemperature.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                      <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                      <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                    </div>
+                    </li>
+                </div>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    <!-- Our columns function in rows. -->
+    <div class="row">
+
+      <!-- Columns have 12 areas of width to work with. -->
+
+      <!-- One third of screen (8/12) -->
+      <div class="col-8">
+        <h1>Summary: Latitude vs. Weather</h1>
+        <!-- This is column 1 of 3 -->
+        <img src="Resources/assets/images/Fig1.png" height="240" alt="">
+      </div>
+
+      <!-- One third of screen (4/12) -->
+      <div class="col-4">
+        <h2>Visualizations</h2>
+        <img src="Resources/assets/images/Fig1.png" height="100" alt="visualtion1">
+        <img src="Resources/assets/images/Fig2.png" height="100" alt="visualtion2">
+        <img src="Resources/assets/images/Fig3.png" height="100" alt="visualtion3">
+        <img src="Resources/assets/images/Fig4.png" height="100" alt="visualtion4">
+      </div>
+
+      <!-- Columns float left, so all adjacent rows will appear next to each other (as long as not all space gets taken up) -->
+    </div>
+
+  </div>
+
+
+
+  </div>
+
+</body>
+
+</html>
