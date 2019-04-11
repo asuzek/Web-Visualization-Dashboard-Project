@@ -26,12 +26,20 @@ body {
   display: table-cell;
 }
 
+.navbar-brand {
+  font-family: "Times New Roman", Times, serif;
+  color:white ;
+  background-color: rgb(0, 173, 166);
+  padding: 10px;
+}
+.image_w {
+float: left;
 
-
+}
 
 h1 {
   font-family: "Times New Roman", Times, serif;
-  color: rgb(0, 173, 166);
+  color: white;
 }
 
 
@@ -49,7 +57,10 @@ h2 {
 
 .navbar {
 
-
+text-align: right;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-left: 100px;
 
 }
 
@@ -57,5 +68,12 @@ h2 {
 
   background:white;
   padding: 10px;
+
+}
+
+.nav-link {
+
+  color: black;
+
 
 }
