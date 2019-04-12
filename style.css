@@ -48,13 +48,24 @@ h2 {
   color: rgb(0, 173, 166);
 }
 
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(0, 173, 166);
+  text-align:center;
+}
+
 .row {
 
   background:rgb(237, 237, 237);
   padding: 40px;
 
 }
+.row2 {
 
+  background:white;
+  padding: 40px;
+
+}
 .navbar {
 
 text-align: right;
@@ -71,9 +82,25 @@ padding-left: 100px;
 
 }
 
+.container {
+
+  background:white;
+  padding: 10px;
+
+}
+.container-fluid {
+
+  background:white;
+  padding: 10px;
+
+}
 .nav-link {
 
   color: black;
+}
 
+.border {
 
+  border:10px;
+  color:rgb(237, 237, 237);
 }
