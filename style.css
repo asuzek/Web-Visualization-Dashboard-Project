@@ -81,6 +81,10 @@ padding-left: 100px;
   padding: 10px;
 
 }
+.col-md-6 {
+  padding-left:0px;
+  padding-right:0px;
+}
 
 .container {
 
@@ -99,8 +103,10 @@ padding-left: 100px;
   color: black;
 }
 
-.border {
-
-  border:10px;
-  color:rgb(237, 237, 237);
+.imgage {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
